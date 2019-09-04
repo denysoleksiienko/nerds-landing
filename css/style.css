@@ -48,7 +48,7 @@ ul li {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -376,4 +376,10 @@ ul li {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.footer__slogan h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
