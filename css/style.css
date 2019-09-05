@@ -396,6 +396,7 @@ ul li {
 }
 
 .footer__map-ico {
+    display: block;
     position: absolute;
     top: 15px;
     left: 785px;
