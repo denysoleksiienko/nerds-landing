@@ -36,6 +36,7 @@ body {
 a {
     text-decoration: none;
     color: #000;
+    background-color: transparent;
 }
 
 ul li {
@@ -439,24 +440,15 @@ ul li {
     right: 225px;
 }
 
-.sponsors__container .html,
-.sponsors__container .borodinski,
-.sponsors__container .pink,
-.sponsors__container .mishka {
+.sponsors__container .brand-item {
     opacity: 0.8;
 }
 
-.sponsors__container .html:hover,
-.sponsors__container .borodinski:hover,
-.sponsors__container .pink:hover,
-.sponsors__container .mishka:hover {
+.sponsors__container .brand-item:hover {
     opacity: 1;
 }
 
-.sponsors__container .html:active,
-.sponsors__container .borodinski:active,
-.sponsors__container .pink:active,
-.sponsors__container .mishka:active {
+.sponsors__container .brand-item:active {
     opacity: 0.5;
 }
 
@@ -474,23 +466,17 @@ ul li {
 
 }
 
-.footer__contacts-socials .vk,
-.footer__contacts-socials .fb,
-.footer__contacts-socials .ins {
+.footer__contacts-socials .social-btn {
     border-radius: 50%;
     width: 79px;
     height: 79px;
 }
 
-.footer__contacts-socials .vk:hover,
-.footer__contacts-socials .fb:hover,
-.footer__contacts-socials .ins:hover {
+.footer__contacts-socials .social-btn:hover {
     opacity: 0.8;
 }
 
-.footer__contacts-socials .vk:active,
-.footer__contacts-socials .fb:active,
-.footer__contacts-socials .ins:active {
+.footer__contacts-socials .social-btn:active {
     opacity: 0.6;
 }
 
@@ -603,6 +589,7 @@ ul li {
 .contact__form .contact__form-close:hover {
     background-color: #d7373b;
 }
+
 .user-info {
     display: inline-block;
 }
