@@ -429,25 +429,35 @@ ul li {
     left: 590px;
 }
 
+.sponsors__container .pink::after {
+    content: '';
+    display: block;
+    border-left: 2px solid #eee;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    right: 225px;
+}
+
 .sponsors__container .html,
 .sponsors__container .borodinski,
 .sponsors__container .pink,
 .sponsors__container .mishka {
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .sponsors__container .html:hover,
 .sponsors__container .borodinski:hover,
 .sponsors__container .pink:hover,
 .sponsors__container .mishka:hover {
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .sponsors__container .html:active,
 .sponsors__container .borodinski:active,
 .sponsors__container .pink:active,
 .sponsors__container .mishka:active {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .footer__contacts {
@@ -467,11 +477,9 @@ ul li {
 .footer__contacts-socials .vk,
 .footer__contacts-socials .fb,
 .footer__contacts-socials .ins {
-    background: #e1e1e1;
     border-radius: 50%;
     width: 79px;
     height: 79px;
-    opacity: 0.5;
 }
 
 .footer__contacts-socials .vk:hover,
@@ -483,7 +491,7 @@ ul li {
 .footer__contacts-socials .vk:active,
 .footer__contacts-socials .fb:active,
 .footer__contacts-socials .ins:active {
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .footer__slogan h2 {
@@ -507,16 +515,17 @@ ul li {
     /* display: none; */
     margin: auto;
     border: 1px solid #eee;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
     position: absolute;
     bottom: -105px;
     left: 105px;
+
 }
 
 .contact__form-wrap {
     width: 760px;
     height: 430px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .contact__form h2 {
@@ -530,13 +539,15 @@ ul li {
     font-size: 16px;
     line-height: 18px;
     font-family: Roboto-Bold, sans-serif;
+    display: block;
+    margin-bottom: 7px;
 }
 
 .contact__form form input[type="text"],
 .contact__form form input[type="email"] {
     width: 360px;
     height: 50px;
-    border: 1px solid #eee;
+    border: 2px solid #d7dcde;
     border-radius: 5px;
     padding: 15px 15px;
     opacity: 0.5;
@@ -546,12 +557,13 @@ ul li {
 
 .contact__form form textarea {
     width: 760px;
-    height: 115px;
-    border: 1px solid #eee;
+    height: 118px;
+    border: 2px solid #d7dcde;
     border-radius: 5px;
     padding: 15px 15px;
     opacity: 0.5;
     font-size: 16px;
+    resize: none;
 }
 
 .contact__form-wrap form .send {
@@ -578,14 +590,19 @@ ul li {
 }
 
 .contact__form .contact__form-close {
-    border: none;
+    border: 1px transparent;
     position: absolute;
     top: 50px;
-    right: 100px;
-    /* opacity: 0.5; */
+    right: 90px;
     cursor: pointer;
+    width: 21px;
+    height: 21px;
+
 }
 
-.contact__form .contact__form-close::hover {
+.contact__form .contact__form-close:hover {
     background-color: #d7373b;
+}
+.user-info {
+    display: inline-block;
 }
