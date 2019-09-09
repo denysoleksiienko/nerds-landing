@@ -406,6 +406,48 @@ ul li {
     display: flex;
     justify-content: space-between;
     margin: 60px 30px;
+    position: relative;
+}
+
+.sponsors__container .html::after {
+    content: '';
+    display: block;
+    border-left: 2px solid #eee;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+
+.sponsors__container .borodinski::after {
+    content: '';
+    display: block;
+    border-left: 2px solid #eee;
+    height: 52px;
+    position: absolute;
+    top: 0;
+    left: 590px;
+}
+
+.sponsors__container .html,
+.sponsors__container .borodinski,
+.sponsors__container .pink,
+.sponsors__container .mishka {
+    opacity: 0.4;
+}
+
+.sponsors__container .html:hover,
+.sponsors__container .borodinski:hover,
+.sponsors__container .pink:hover,
+.sponsors__container .mishka:hover {
+    opacity: 0.6;
+}
+
+.sponsors__container .html:active,
+.sponsors__container .borodinski:active,
+.sponsors__container .pink:active,
+.sponsors__container .mishka:active {
+    opacity: 1;
 }
 
 .footer__contacts {
@@ -419,27 +461,29 @@ ul li {
     display: flex;
     justify-content: space-around;
     margin-bottom: 75px;
+
 }
 
-.footer__contacts-socials .vk {
-    background: #eee;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
-.footer__contacts-socials .fb {
-    background: #eee;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
-
+.footer__contacts-socials .vk,
+.footer__contacts-socials .fb,
 .footer__contacts-socials .ins {
-    background: #eee;
+    background: #e1e1e1;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 79px;
+    height: 79px;
+    opacity: 0.5;
+}
+
+.footer__contacts-socials .vk:hover,
+.footer__contacts-socials .fb:hover,
+.footer__contacts-socials .ins:hover {
+    opacity: 0.8;
+}
+
+.footer__contacts-socials .vk:active,
+.footer__contacts-socials .fb:active,
+.footer__contacts-socials .ins:active {
+    opacity: 1;
 }
 
 .footer__slogan h2 {
@@ -448,8 +492,6 @@ ul li {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
 
 .footer__slogan p {
     font-size: 16px;
@@ -543,7 +585,7 @@ ul li {
     /* opacity: 0.5; */
     cursor: pointer;
 }
+
 .contact__form .contact__form-close::hover {
     background-color: #d7373b;
 }
->>>>>>> 022ad5ff464efae1b73eedd19f4d4b139ea65c87
