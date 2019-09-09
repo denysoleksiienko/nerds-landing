@@ -28,7 +28,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     background: #fff;
     color: #000;
 }
@@ -339,6 +339,69 @@ ul li {
     height: 180px;
 }
 
+.footer__map {
+    display: block;
+    position: relative;
+}
+
+.footer__map-contacts {
+    width: 330px;
+    height: 310px;
+    background: #fff;
+    margin: 50px 0;
+    position: absolute;
+    top: 0;
+    padding: 55px 50px;
+}
+
+.footer__map-contacts h3 {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.footer__map-contacts p {
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+
+.footer__map-contacts .tel {
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.footer__map-contacts .write-to-us {
+    width: 240px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 17px;
+    border: 1px solid #ff555a;
+    background: #ff555a;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__map-contacts .write-to-us:hover {
+    background: #e74246;
+}
+
+.footer__map-contacts .write-to-us:active {
+    background: #d7373b;
+}
+
+.footer__map-ico {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 785px;
+}
+
 .sponsors__container {
     display: flex;
     justify-content: space-between;
@@ -355,6 +418,7 @@ ul li {
     width: 350px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 75px;
 }
 
 .footer__contacts-socials .vk {
@@ -380,6 +444,106 @@ ul li {
 
 .footer__slogan h2 {
     font-size: 36px;
+    font-family: Roboto-Bold, sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
+=======
+
+.footer__slogan p {
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 22px;
+}
+
+.contact__form {
+    display: none;
+    width: 960px;
+    height: 590px;
+    background: #fff;
+    /* display: none; */
+    margin: auto;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -105px;
+    left: 105px;
+}
+
+.contact__form-wrap {
+    width: 760px;
+    height: 430px;
+    margin: auto;
+}
+
+.contact__form h2 {
+    margin: 30px 0;
+    font-size: 45px;
+    line-height: 45px;
+    font-family: Roboto-Medium, sans-serif;
+}
+
+.contact__form label {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Roboto-Bold, sans-serif;
+}
+
+.contact__form form input[type="text"],
+.contact__form form input[type="email"] {
+    width: 360px;
+    height: 50px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px 15px;
+    opacity: 0.5;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.contact__form form textarea {
+    width: 760px;
+    height: 115px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px 15px;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.contact__form-wrap form .send {
+    width: 260px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ff555a;
+    background: #ff555a;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact__form-wrap form .send:hover {
+    background: #e74246;
+}
+
+.contact__form-wrap form .send:active {
+    background: #d7373b;
+}
+
+.contact__form .contact__form-close {
+    border: none;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    /* opacity: 0.5; */
+    cursor: pointer;
+}
+.contact__form .contact__form-close::hover {
+    background-color: #d7373b;
+}
+>>>>>>> 022ad5ff464efae1b73eedd19f4d4b139ea65c87
